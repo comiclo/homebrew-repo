@@ -34,7 +34,7 @@ class Opencv < Formula
   def install
     ENV.cxx11
 
-    resource("contrib").stage buildpath/"opencv_contrib"
+    resource("contrib").stage buildpath/"opencv_contrib-master"
 
     # Reset PYTHONPATH, workaround for https://github.com/Homebrew/homebrew-science/pull/4885
     ENV.delete("PYTHONPATH")
