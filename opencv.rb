@@ -27,7 +27,7 @@ class Opencv < Formula
   needs :cxx11
 
   resource "contrib" do
-    url "https://codeload.github.com/opencv/opencv_contrib/zip/master"
+    url "https://github.com/opencv/opencv_contrib/archive/master.zip"
     sha256 "8a62fc95e6827e880240fc3c3034ec860d7395b443bad60883e4f3ded67d5605"
   end
 
