@@ -2,7 +2,6 @@ class Opencv < Formula
   desc "Open source computer vision library"
   homepage "http://opencv.org/"
   url "https://github.com/opencv/opencv/archive/master.zip"
-  sha256 "7072a1a40b0359c5a31fd1b1d08d389df2a881310d062a8d38c69995335724ec"
   version "master"
 
   depends_on "cmake" => :build
@@ -21,7 +20,6 @@ class Opencv < Formula
 
   resource "contrib" do
     url "https://github.com/opencv/opencv_contrib/archive/master.zip"
-    sha256 "8a62fc95e6827e880240fc3c3034ec860d7395b443bad60883e4f3ded67d5605"
   end
 
   def install
