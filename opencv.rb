@@ -34,7 +34,7 @@ class Opencv < Formula
   def install
     ENV.cxx11
 
-    resource("contrib").stage buildpath/"opencv_contrib-master"
+    resource("contrib").stage buildpath/"opencv_contrib"
 
     # Reset PYTHONPATH, workaround for https://github.com/Homebrew/homebrew-science/pull/4885
     ENV.delete("PYTHONPATH")
@@ -58,7 +58,7 @@ class Opencv < Formula
       -DBUILD_ZLIB=OFF
       -DBUILD_opencv_java=OFF
       -DOPENCV_ENABLE_NONFREE=ON
-      -DOPENCV_EXTRA_MODULES_PATH=#{buildpath}/opencv_contrib-master/modules
+      -DOPENCV_EXTRA_MODULES_PATH=#{buildpath}/opencv_contrib/modules
       -DWITH_1394=OFF
       -DWITH_CUDA=OFF
       -DWITH_EIGEN=ON
