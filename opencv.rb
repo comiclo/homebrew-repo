@@ -2,6 +2,7 @@ class Opencv < Formula
   desc "Open source computer vision library"
   homepage "http://opencv.org/"
   url "https://github.com/opencv/opencv/archive/master.zip"
+  sha256 "7072a1a40b0359c5a31fd1b1d08d389df2a881310d062a8d38c69995335724ec"
   revision 3
 
   depends_on "cmake" => :build
