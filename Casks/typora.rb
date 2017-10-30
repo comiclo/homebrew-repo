@@ -1,5 +1,5 @@
 cask 'typora' do
-  version '0.9.9.10.8'
+  version '0.9.9.10.9'
   sha256 '67f05f029c61cf2db7277844ed34572000e0ec4f37070638c80002ab093c662f'
 
   url 'https://typora.io/download/Typora.dmg'
